@@ -4,7 +4,8 @@ This lab implements a **user authentication system** with **registration and log
 
 * *Date Created*: 27 Feb 2025
 * *Last Modification Date*: 27 Feb 2025
-* *Lab URL*: <https://web.cs.dal.ca/ansharora/csci3172/labs/lab4/>
+* *Timberlea URL*: https://web.cs.dal.ca/~ansha/csci3172/labs/lab4/src/
+* *Git URL: https://git.cs.dal.ca/ansha/csci-3172.git
 
 ---
 
