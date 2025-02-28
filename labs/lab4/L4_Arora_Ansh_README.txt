@@ -44,4 +44,4 @@ None
 
 ## Images Used
 
-- **Personal Image**: `/Users/ansharora/Desktop/3172/lab4/images/IMG_6207.jpg`
+None
