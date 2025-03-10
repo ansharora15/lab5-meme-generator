@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const fetch = require('node-fetch');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -7,7 +8,7 @@ app.use(express.static('public'));
 app.use(express.json());
 
 // Unsplash API configuration
-const UNSPLASH_ACCESS_KEY = 'hFWGDMn-jfwx9rTtDhKcB3yHFIAJjhpou7bBI4b6T9c';
+const UNSPLASH_ACCESS_KEY = process.env.hFWGDMn-jfwx9rTtDhKcB3yHFIAJjhpou7bBI4b6T9c;
 
 // Endpoint to fetch images from Unsplash API
 app.get('/api/images', async (req, res) => {
