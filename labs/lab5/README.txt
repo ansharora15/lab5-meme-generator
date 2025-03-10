@@ -2,11 +2,22 @@ Lab5: Meme Generator App
 
 * *Date Created*: 09 03 2025
 * *Last Modification Date*: 09 03 2025
-GitHub Repository: [Insert Link Here]
-Deployed Application Link: [Insert Link Here]
+Gitlab link: https://git.cs.dal.ca/ansha/csci-3172.git
+GitHub Repository: https://github.com/ansharora15/lab5-meme-generator
+Deployed Application Link: https://effulgent-syrniki-38f0aa.netlify.app
 
 
 This project is a simple Meme Generator web application built using Node.js, Express, and JavaScript. Users can search for images via the Unsplash API, add custom top and bottom text, and download the generated memes.
+
+NOTE
+The application functions as intended in terms of layout, meme generation process, and text input. However, the image fetching from the Unsplash API is not working after deployment on Netlify.
+Locally, the API works correctly, and images are fetched. On Netlify, despite setting up environment variables and configuring build settings, images are not displayed. This could be due to restrictions in Netlify's handling of serverless functions or environment variable propagation.
+All other functionalities, including meme text input, generation, and download, work perfectly.
+Efforts made to resolve this:
+Verified API keys and environment variables.
+Adjusted build and deployment settings on Netlify.
+Debugged API calls locally and on the server.
+
 
 Installation Instructions
 
